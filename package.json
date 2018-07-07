@@ -1,0 +1,19 @@
+{
+  "name": "omnifoods",
+  "version": "1.0.0",
+  "description": "responsive food website",
+  "main": "./public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Afanami/omnifoods.git"
+  },
+  "author": "Afanami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Afanami/omnifoods/issues"
+  },
+  "homepage": "https://github.com/Afanami/omnifoods#readme"
+}
