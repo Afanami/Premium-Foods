@@ -2,8 +2,10 @@
   "name": "omnifoods",
   "version": "1.0.0",
   "description": "responsive food website",
-  "main": "./public/index.html",
+  "main": "./index.html",
   "scripts": {
+    "watch": "parcel ./index.html",
+    "production": "parcel build ./index.html --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Afanami/omnifoods/issues"
   },
-  "homepage": "https://github.com/Afanami/omnifoods#readme"
+  "homepage": "https://github.com/Afanami/omnifoods#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.9.4"
+  }
 }
