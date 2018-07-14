@@ -137,6 +137,10 @@
     margin: 4% 0 0 0;
   }
 
+  header {
+    background-attachment: scroll;
+  }
+
   .main-nav {
     float: left;
     margin-top: 35px;
