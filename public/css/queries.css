@@ -221,7 +221,7 @@
 
   .city-feature {
     font-size: 100%;
-    text-align: center;
+    margin-left: 37%;
   }
 
   .section-testimonials {
@@ -325,6 +325,10 @@
   .btn-app img {
     margin-left: 30%;
     width: 40%;
+  }
+
+  .city-feature {
+    margin-left: 30%;
   }
 
   .section-plans ul {
