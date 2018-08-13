@@ -134,4 +134,17 @@ $(document).ready(function() {
     }
     //
   });
+
+  $(document).ready(function() {
+    var map = new google.maps.Map(document.getElementById("map"), {
+      zoom: 14,
+      center: new google.maps.LatLng(-36.8661133, 174.7591394)
+    });
+
+    var marker = new google.maps.Marker({
+      position: new google.maps.LatLng(-36.8599015, 174.7313281),
+      map: map,
+      title: "Premium Foods Main Branch"
+    });
+  });
 });
