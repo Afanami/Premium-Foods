@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/Afanami/omnifoods#readme",
   "devDependencies": {
-    "parcel-bundler": "^1.9.4"
+    "parcel-bundler": "^1.12.3"
   }
 }
